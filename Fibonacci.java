@@ -3,15 +3,16 @@ public class Fibonacci {
 	
 	public static void main(String[] args) {
 		
-		int num1 = 0;
-		int num2 = 1;
-		while(num1 <= 100 && num2 <=100 ) {
+		long num1 = 0;
+		long num2 = 1;
+		int cont = 0;
+		while(cont<=100) {
 			System.out.print(num1 + " ");
-			System.out.print(num2 + " " );
+			System.out.print(num2 + " ");
 			num1+=num2;
 			num2+=num1;
+			cont++;
 		}
-    
 	}
 
 }
